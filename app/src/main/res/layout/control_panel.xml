@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#b0292525"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    style="@style/DebugTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mode" />
+
+                <Spinner
+                    android:id="@+id/debug_mode"
+                    style="@style/DebugWidget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    style="@style/DebugTitle"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/interval" />
+
+                <Spinner
+                    android:id="@+id/debug_interval"
+                    style="@style/DebugWidget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </TableRow>
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    style="@style/DebugTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_choose_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/choose_color" />
+
+                    <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:text="áddas"-->
+                    <!--android:layout_height="wrap_content" />-->
+
+                    <View
+                        android:id="@+id/color_preview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="4dp" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    style="@style/DebugTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/background" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_color_bg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/choose_color" />
+
+                    <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:text="áddas"-->
+                    <!--android:layout_height="wrap_content" />-->
+
+                    <View
+                        android:id="@+id/color_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="4dp" />
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/paint_size" />
+
+                <Spinner
+                    android:id="@+id/spinner_size_paint"
+                    style="@style/DebugWidget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </TableRow>
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    style="@style/DebugTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/filter" />
+
+                <Spinner
+                    android:id="@+id/spinner_filter"
+                    style="@style/DebugWidget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/filter_type" />
+            </TableRow>
+        </TableLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="4dp"
+            android:background="?colorAccent" />
+
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/debug_show_vertical"
+            style="@style/DebugWidget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:checked="true"
+            android:text="@string/show_vertical_lines" />
+
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/debug_show_horizontal"
+            style="@style/DebugWidget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:checked="true"
+            android:text="@string/show_horizontal_lines" />
+
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/debug_enabled"
+            style="@style/DebugWidget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:checked="true"
+            android:text="@string/enabled_grid" />
+
+        <LinearLayout
+            android:id="@+id/container_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+

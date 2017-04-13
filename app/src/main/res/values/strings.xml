@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Image Overlay</string>
+
+    <string name="menu_enable_pan" translatable="false">Pan</string>
+    <string name="menu_enable_zoom">Zoom</string>
+    <string name="menu_enable_rotation">Rotation</string>
+    <string name="menu_restrict_rotation" translatable="false">Restrict rotation</string>
+    <string name="menu_enable_overscroll_x">Overscroll X</string>
+    <string name="menu_enable_overscroll_y">Overscroll Y</string>
+    <string name="menu_enable_overzoom">Over zoom</string>
+    <string name="menu_enable_exit">Exit gesture</string>
+    <string name="menu_fill_viewport" translatable="false">Fill viewport</string>
+    <string name="menu_enable_slow">Slow animations</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation</string>
+    <string name="open">Open</string>
+    <string name="rate">Rate</string>
+    <string name="more_app">More app</string>
+    <string name="mode">Mode</string>
+    <string name="interval">Space</string>
+    <string name="color">Color</string>
+    <string name="choose_color">Choose color</string>
+    <string name="open_file">Open file</string>
+    <string name="open_file_desc">Click on the folder icon to open the selected image. After being selected images will be displayed on the screen.</string>
+    <string name="option_title">More options</string>
+    <string name="options_desc">Click here for show advanced settings</string>
+    <string name="background">Background</string>
+    <string name="paint_size">Paint size</string>
+    <string name="show_vertical_lines">Show vertical lines</string>
+    <string name="show_horizontal_lines">Show horizontal lines</string>
+    <string name="enabled_grid">Enabled grid</string>
+    <string name="filter">Filter</string>
+    <string name="normal">Normal</string>
+    <string name="black_white">Black - White</string>
+    <string name="msg_select_img">Select image after filter</string>
+    <string-array name="size_paint" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="filter_type" translatable="false">
+        <item>@string/normal</item>
+        <item>@string/black_white</item>
+    </string-array>
+</resources>

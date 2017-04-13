@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9d29b0</color>
+    <color name="colorPrimaryDark">#6b1d9b</color>
+    <color name="colorAccent">#6af0ae</color>
+    <color name="color_blue">#3949ab</color>
+
+
+    <!-- Next colors are slightly different to prevent window animation bug on Android 6.0 -->
+
+</resources>

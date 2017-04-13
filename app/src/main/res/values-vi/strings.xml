@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Image Overlay</string>
+    <string name="more_app">Thêm ứng dụng từ nhà phát triển.</string>
+    <string name="open">Mở file</string>
+    <string name="rate">Đánh giá</string>
+    <string name="open_file">Mở file</string>
+    <string name="open_file_desc">Nhấp vào biểu tượng thư mục để mở hình ảnh trình chọn hình ảnh. Sau khi hình ảnh được chọn sẽ được hiển thị trên màn hình.</string>
+    <string name="option_title">Lựa chọn khác</string>
+    <string name="options_desc">Bấm vào đây cài đặt nâng cao</string>
+    <string name="background">Màu nền</string>
+    <string name="choose_color" >Chọn màu</string>
+    <string name="color">Màu sắc</string>
+    <string name="menu_enable_rotation">Xoay</string>
+    <string name="menu_enable_slow">Di chuyển chậm</string>
+    <string name="menu_enable_zoom">Thu phóng</string>
+    <string name="mode">Chế độ</string>
+    <string name="interval">Khoảng cách</string>
+    <string name="menu_enable_exit" >Thu nhỏ hết mức</string>
+    <string name="menu_enable_overscroll_x" >Hiệu ứng kéo trục x</string>
+    <string name="menu_enable_overscroll_y" >Hiệu ứng kéo trục y</string>
+    <string name="menu_enable_overzoom" >Thu phóng quá mức</string>
+    <string name="paint_size">Kích cỡ đường vẽ</string>
+    <string name="show_horizontal_lines">Hiện đường ngang</string>
+    <string name="show_vertical_lines">Hiện đường dọc</string>
+    <string name="enabled_grid">Hiển thị đường kẻ</string>
+    <string name="black_white">Trắng đen</string>
+    <string name="filter">Bộ lọc</string>
+    <string name="normal">Bình thường</string>
+    <string name="msg_select_img">Chọn hình ảnh trước khi áp dụng bộ lọc</string>
+</resources>
